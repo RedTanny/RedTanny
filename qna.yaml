@@ -1,0 +1,32 @@
+version: 2
+task_description: 'Teach the model on laser weapons'
+created_by: shimon tannny
+domain: weapons
+seed_examples:
+ - question: What is the Block-I weapon?
+   answer: |
+     The laser weapon, called Block-I, can precisely strike small unmanned aerial vehicles and multicopters at close range.
+     
+ - question: who is behind the Block-I laser weapon ? and for what ?
+   answer: |
+     South Korea is beginning the mass production of a low-cost laser weapon that has successfully shot down small drones during testing.
+
+ - question: will they build also anit-airplan weapon?
+   answer: |
+    DAPA will develop “a laser anti-aircraft weapon (Block-II) system with improved output and range compared to the current one,” the release said.     
+ - question: what is DAPA?
+   answer: |
+     South Korea’s Defense Acquisition Program Administration.
+ - question: What is the cost to fire the laser weapon?
+   answer: |
+     Each shot fired would only cost about $1.50..
+ - question: who else is developing theses weapons?
+   answer: |
+      A UK Dragonfire laser directed energy weapon system is seen on day one of the DSEI arms fair at ExCel
+      on September 10, 2019 in London, England. The biennial Defence and Security Equipment International (DSEI)
+      is the world's largest arms fair and is held in London's Docklands area.
+document:
+ repo: https://github.com/RedTanny/RedTanny.git
+ commit: d7898b14658390830efac482bff04e86957fe772
+ patterns:
+   - laserWeapon.md
