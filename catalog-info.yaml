@@ -1,0 +1,4 @@
+metadata:
+  annotations:
+    jenkins.io/job-full-name: jenkins_test_job
+
